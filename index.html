@@ -9,9 +9,10 @@
         <!-- CSS -->
         <link href="static/css/bootstrap.min.css" rel="stylesheet">
         <link href="static/css/landing.css" rel="stylesheet">
-        
+
         <!-- FONTS -->
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,13 +23,78 @@
     </head>
     <body>
         <header>
-            <div class="header-content container">
-                <h1>
-                    Découvrez un service <b>gratuit</b> et <b>intuitif</b>
-                </h1>
-                <button class="btn btn-danger btn-lg">Inscription</button>
+            <div class="container">
+                <div class="logo">
+                    Landing <span class="text-danger">.</span>
+                </div>
+                <div class="header-content">
+                    <p class="presentation">
+                        Découvrez un service
+                        <br />
+                        <b>simple</b> et <b>gratuit</b>
+
+                        <span class="glyphicon glyphicon-play-circle play-btn"></span>
+                    </p>
+                    <button class="btn btn-danger btn-lg">Inscription</button>
+                </div>
             </div>
         </header>
+
+        <section>
+            <div class="title-section">
+                <h3>Nos services</h3>
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </div>
+            <p>
+                Découvrez les services proposés par Landing.
+                <br />
+                Ces services sont proposés dans le cadre d'un challenge pour Microsoft Azure.
+            </p>
+
+            <div class="row services">
+                <div class="col-lg-4">
+                    <span class="glyphicon glyphicon-calendar logo-service text-info"></span>
+                    <br />
+                    <h4>Calendrier personnalisé</h4>
+                    <p>Microsoft Azure vous propose un calendrier complet pour un challenge afin de tenter de gagner une Surface Pro 4</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <span class="glyphicon glyphicon-bell logo-service text-info"></span>
+                    <br />
+                    <h4>Système de notifications</h4>
+                    <p>Microsoft Azure vous propose un système de notification instantané très avancé. Découvrez le maintenant.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <span class="glyphicon glyphicon-stats logo-service text-info"></span>
+                    <br />
+                    <h4>Dashboard complet</h4>
+                    <p>Découvrez l'interface complète et intuitive de Microsoft Azure à travers ce challenge.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="backblue">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-surface" src="static/img/surfacepro.png" alt="Surface Pro 4" />
+                </div>
+                <div class="col-lg-6 backblue-content">
+                    <h4>Tentez de gagner un Microsoft Surface Pro 4 !</h4>
+                    <p>
+                        En naviguant sur ce site, vous découvrez une page créée pour le Microsoft Azure Challenge.
+                        <br /><br />
+                        <button class="btn btn-success">Découvrir !</button>
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            Landing - Tous droits réservés
+        </footer>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

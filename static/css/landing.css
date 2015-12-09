@@ -8,19 +8,97 @@ and open the template in the editor.
     Author     : Michel
 */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 header {
-    position: absolute;
-    background: url('../img/background.jpg') 0 0;
+    padding-top: 30px;
+    background: url('../img/background.jpg');
     background-size: 100% 100%;
-    height: 100%;
+    height: 750px;
     width: 100%;
 }
 
 .header-content {
-    position: relative;
-    top: 40%;
-    color: #FFF;
     text-align: center;
-    background: rgba(236, 240, 241,0.4);
+    margin-top: 80px;
+}
+
+.presentation {
+    font-size: 35px;
+}
+
+.presentation .play-btn {
+    font-size: 60px;
+    margin-top: 25px;
+    display: block;
+}
+
+.header-content .btn {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        background: #e4e4e4;
+        height: 100%;
+    }
+
+    .presentation {
+        font-size: 15px;
+    }
+
+    .presentation .play-btn {
+        font-size: 30px;
+        margin-top: 25px;
+        display: block;
+    }
+}
+
+.logo {
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+}
+
+section {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.title-section {
+    text-align: center;
+    color: #a94442;
+}
+
+.services {
+    margin: 100px 0;
+}
+
+.logo-service {
+    font-size: 50px;
+}
+
+.backblue {
+    background-color: #0c88d8;
+    color: #FFF;
+}
+
+.img-surface {
+    width: 100%;
+}
+
+.backblue-content {
+    margin: 135px 0;
+    padding: 0;
+}
+
+.row {
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+footer {
+    text-align: center;
     padding: 25px;
 }
